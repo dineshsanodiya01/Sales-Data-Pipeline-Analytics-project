@@ -7,3 +7,12 @@ CREATE TABLE FactSales (
     SalesAmount DECIMAL(18,2),
     Quantity INT
 );
+
+Dimension Table – dim_product.sql
+
+CREATE TABLE DimProduct (
+    ProductID INT PRIMARY KEY,
+    ProductName VARCHAR(100),
+    Category VARCHAR(50),
+    SubCategory VARCHAR(50)
+);
