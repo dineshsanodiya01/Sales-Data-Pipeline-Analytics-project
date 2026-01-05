@@ -1,0 +1,22 @@
+# Sales Data Pipeline & Analytics (Azure)
+
+## Tech Stack
+Azure Data Factory | ADLS Gen2 | Azure Databricks (PySpark)
+Azure SQL Database | Power BI | GitHub
+
+## Project Overview
+End-to-end Azure data engineering project implementing Medallion Architecture
+(Bronze → Silver → Gold) for sales analytics.
+
+## Architecture
+GitHub → ADF → ADLS → Databricks → Azure SQL → Power BI
+
+## Key Features
+- Automated year-wise data ingestion
+- PySpark transformations
+- Star schema modeling
+- Business KPIs & dashboards
+
+## Author
+Dinesh Kumar Sanodiya  
+LinkedIn: https://www.linkedin.com/in/dinesh-kumar-sanodiya-85b67a230
