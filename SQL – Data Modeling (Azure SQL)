@@ -1,0 +1,9 @@
+CREATE TABLE FactSales (
+    SalesID INT IDENTITY PRIMARY KEY,
+    ProductID INT,
+    CustomerID INT,
+    RegionID INT,
+    TimeID INT,
+    SalesAmount DECIMAL(18,2),
+    Quantity INT
+);
