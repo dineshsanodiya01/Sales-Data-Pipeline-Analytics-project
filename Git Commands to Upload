@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Initial commit: Sales Data Pipeline on Azure"
+git branch -M main
+git remote add origin https://github.com/your-username/sales-data-pipeline-azure.git
+git push -u origin main
