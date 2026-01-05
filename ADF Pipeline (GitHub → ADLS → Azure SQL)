@@ -1,0 +1,8 @@
+adf/sales_ingestion_pipeline.json
+Pipeline Flow:
+
+Source: GitHub (HTTP connector)
+
+Sink: ADLS Gen2 (Bronze)
+
+Trigger: Schedule (Daily/Weekly)
