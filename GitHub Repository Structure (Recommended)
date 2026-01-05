@@ -1,0 +1,28 @@
+sales-data-pipeline-azure/
+│
+├── data/
+│   ├── raw/
+│   │   └── sales_2023.csv
+│   └── sample_schema/
+│       └── sales_schema.json
+│
+├── adf/
+│   └── sales_ingestion_pipeline.json
+│
+├── databricks/
+│   ├── bronze_sales.py
+│   ├── silver_sales.py
+│   └── gold_sales.py
+│
+├── sql/
+│   ├── dim_product.sql
+│   ├── dim_customer.sql
+│   ├── dim_region.sql
+│   ├── dim_time.sql
+│   └── fact_sales.sql
+│
+├── powerbi/
+│   └── sales_dashboard.pbix
+│
+├── README.md
+└── .gitignore
